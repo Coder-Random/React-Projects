@@ -1,0 +1,1 @@
+ReactDom.render("Hello World", document.getElementById("background"));

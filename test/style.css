@@ -1,0 +1,21 @@
+.background {
+    width: 1000px;
+    height: 500px;
+    background-color: #30475e;
+    position: fixed;
+    top : 150px;
+    left:150px;
+    border: #000000 10px solid;
+    border-radius: 15px;
+}
+
+.btn {
+    position: relative;
+    padding: 12px 27px;
+    left: 50px;
+    top: 50px;
+    background-color: rgba(93, 241, 135, 0.779);
+    color: #000000;
+    border-radius: 9px;
+    text-align: center;
+}

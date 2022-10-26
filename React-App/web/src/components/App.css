@@ -1,0 +1,178 @@
+.NUI-background {
+  width: 350px;
+  height: 500px;
+  background-color: #2f303b;
+  position: fixed;
+  top : 149px;
+  left: 350px;
+  border-radius: 15px;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  margin-left: 145px;
+  position: fixed;
+
+}
+
+.Accept-Button{
+  width: 100px;
+  height: 30px;
+  background-color: #9dea7a;
+  border: 1px solid #9dea7a;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  margin-left: 375px;
+  position: fixed;
+  top: 400px;
+}
+
+.Accept-Button:hover{
+  background-color: #8cd96a;
+  border: 1px solid #8cd96a;
+}
+
+.Cancel-Button{
+  width: 100px;
+  height: 30px;
+  background-color: #eea367;
+  border: 1px solid #eea367;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  margin-left: 575px;
+  position: fixed;
+  top: 400px;
+}
+
+.Cancel-Button:hover{
+  background-color: #d78f5f;
+  border: 1px solid #d78f5f;
+}
+
+.NUI-Accept-Background {
+  width: 300px;
+  height: 250px;
+  background-color: #2f303b;
+  position: fixed;
+  top : 250px;
+  left: 350px;
+  border-radius: 15px;
+}
+
+.NUI-Accept-Text {
+  color: white;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  margin-left: 40px;
+  position: fixed;
+  top: 325px;
+}
+
+.Confirm-Button {
+  width: 100px;
+  height: 30px;
+  background-color: #9dea7a;
+  border: 1px solid #9dea7a;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  margin-left: 25px;
+  position: fixed;
+  top: 400px;
+}
+
+.Confirm-Button:hover {
+  background-color: #8cd96a;
+  border: 1px solid #8cd96a;
+}
+
+.Cancel-Accept-Button {
+  width: 100px;
+  height: 30px;
+  background-color: #eea367;
+  border: 1px solid #eea367;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  margin-left: 225px;
+  position: fixed;
+  top: 400px;
+}
+
+.Cancel-Accept-Button:hover {
+  background-color: #d78f5f;
+  border: 1px solid #d78f5f;
+}
+
+/* animate  bounce .Notify-Background */
+@keyframes Notify  {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+.Notify-Container {
+  animation-name: Notify;
+  animation-duration: .8s;
+  animation-iteration-count: infinite;
+}
+
+.Notify-Background {
+  width: 345px;
+  height: 100px;
+  background-color: #2f303b;
+  position: fixed;
+  top : 25px;
+  left: 350px;
+  border-radius: 15px;
+}
+
+
+.Notify-Text {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  margin-left: 40px;
+  position: fixed;
+  top: 45px;
+}
+
+.Confirm-Background {
+  width: 300px;
+  height: 250px;
+  background-color: #2f303b;
+  position: fixed;
+  top : 100px;
+  left: 350px;
+  border-radius: 15px;
+}
+
+.Confirm-Text {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  margin-left: 30px;
+  position: fixed;
+  top: 325px;
+}
