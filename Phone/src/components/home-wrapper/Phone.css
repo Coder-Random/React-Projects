@@ -1,0 +1,159 @@
+.phone-shell {
+  background-color: rgb(107, 106, 106);
+  border: 6px solid rgb(147, 169, 165);
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  height: 835px;
+  margin: 0 auto;
+  max-width: 390px;
+  overflow: hidden;
+  position: relative;
+  width: 370px;
+
+}
+
+/* Home bar wrapper */
+.phone-home-button {
+  background-color: rgb(107, 106, 106);
+  border: 1px solid rgb(255, 255, 255);
+  width: 20px;
+  height: 20px;
+  top: 810px;
+  left: 625px;
+  position: absolute;
+}
+
+.arrow {
+  border: solid rgb(255, 252, 252);
+  background-color: rgb(107, 106, 106);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 5px;
+  left: 725px;
+  top: 815px;
+  position: absolute;
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.home-app-block{
+  background-color: rgb(255, 255, 255);
+  width: 3px;
+  border-radius: 10px;
+  height: 20px;
+  top: 810px;
+  left: 530px;
+  position: absolute;
+}
+.home-app-block-2{
+  background-color: rgb(255, 255, 255);
+  width: 3px;
+  border-radius: 10px;
+  height: 20px;
+  top: 810px;
+  left: 525px;
+  position: absolute;
+}
+.home-app-block-3{
+  background-color: rgb(255, 255, 255);
+  width: 3px;
+  border-radius: 10px;
+  height: 20px;
+  top: 810px;
+  left: 520px;
+  position: absolute;
+}
+
+.phone-message-app {
+  background-color: rgb(0, 215, 18);
+  border-radius: 9px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 736px;
+  left: 125px;
+}
+
+.phone-call-app {
+  background-color: rgb(0, 215, 18);
+  border-radius: 9px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 736px;
+  left: 65px;
+}
+
+.phone-contacts-app{
+  background-color: rgb(0, 215, 18);
+  border-radius: 9px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 736px;
+  left: 245px;
+}
+
+.phone-spotiy-app{
+  background-color: rgb(0, 0, 0);
+  border-radius: 9px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 736px;
+  left: 185px;
+}
+/* End of home bar wrapper */
+.phone-chrome-app {
+  background-color: rgb(0, 122, 215);
+  border-radius: 9px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 30px;
+  left: 10px;
+}
+
+.phone-appstore-app {
+  background-color: rgb(0, 122, 215);
+  border-radius: 9px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 30px;
+  left: 120px;
+}
+.phone-tiktok-app{
+  background-color: rgb(0, 0, 0);
+  border-radius: 9px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 30px;
+  left: 175px;
+}
+.phone-calc-app {
+  background-color: rgb(215, 172, 0);
+  border-radius: 9px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 30px;
+  left: 65px;
+}
+
+.phone-home-row {
+  background-color: rgba(123, 122, 122, 0.402);
+  border: 2px solid rgb(147, 169, 165);
+  border-radius: 9px;
+  height: 60px;
+  position: absolute;
+  top: 730px;
+  left: 60px;
+  width: 236px;
+}
+/* End of home bar wrapper */
+
